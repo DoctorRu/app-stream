@@ -16,6 +16,15 @@
 // automatically applied to the <body> element in the app.
 
 @font-face {
+    font-family: open-sans;
+    src: url('../assets/fonts/open-sans.woff2') format('woff2');
+}
+
+*{
+    font-family: open-sans, serif;
+}
+
+@font-face {
     font-family: baloo-bhai;
     src: url('../assets/fonts/baloo-bhai.woff2') format('woff2');
 }
