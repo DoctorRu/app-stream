@@ -1,18 +1,34 @@
-<!--
-  Generated template for the IntroPage page.
+<ion-slides pager>
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
+  <ion-slide style="background-color: #41c6f1">
+    <i class="fa fa-video-camera" style="font-size:120px; color:#ebebeb" aria-hidden="true"></i>
+    <h1 style="color: #ebebeb">Videos on Demand</h1>
+    <p style="font-family:open-sans; font-size:14px; color:#ebebeb">Watch videos in your <b>own</b> time, <i>anywhere</i>!</p>
+  </ion-slide>
 
-  <ion-navbar>
-    <ion-title>intro</ion-title>
-  </ion-navbar>
+  <ion-slide style="background-color: #f06261">
+    <i class="fa fa-bath" style="font-size:120px; color:#ebebeb" aria-hidden="true"></i>
+    <h1 style="color: #ebebeb">In your own Space</h1>
+    <p style="font-family:open-sans; font-size:14px; color: #ebebeb">Catch-up in the <b>comfort</b> of your own <b>home</b>.</p>
+  </ion-slide>
 
-</ion-header>
+  <ion-slide style="background-color: #60c4bb">
+    <i class="fa fa-headphones" style="font-size:120px; color:#ebebeb" aria-hidden="true"></i>
+    <h1 style="color: #ebebeb">Live Audio Streams</h1>
+    <p style="font-family:open-sans; font-size:14px; color: #ebebeb">Listen to <b>live</b> audio <b>streams</b> on your <i>device</i>!</p>
+  </ion-slide>
 
+  <ion-slide class="bg-image">
+    <h1 style="color:#ebebeb">Welcome to AppStream</h1>
+    <h4 style="color:#ebebeb">Your Streaming Partner.</h4>
+    <p class="padding" style="font-family:open-sans; font-size:14px; color:#ebebeb">
+      Now that you've seen what its all<br> 
+      about, how about we get started?
+    </p>
 
-<ion-content padding>
+    <div style="position:absolute; bottom: 120px; text-align:center; z-index:1000; width:100%">
+      <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's Go!</button>
+    </div>
+  </ion-slide>
 
-</ion-content>
+</ion-slides>

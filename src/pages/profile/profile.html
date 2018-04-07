@@ -1,0 +1,224 @@
+<ion-header>
+    
+    <ion-navbar color="danger">
+        
+        <ion-buttons start>
+            <button ion-button icon-only menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        
+        <ion-title>profile</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only style="color: #ebebeb" (click)="showToast('bottom')">
+                <ion-icon name="heart-outline"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content fullscreen>
+    <div class="header-parent">
+        <div>
+            <img src="assets/img/bg2.jpg">
+        </div>
+        
+        <div class="header-social">
+            <img style="width:18%; margin-right:3vw" src="assets/img/love-btn.png">
+            <img style="width:40%;" src="assets/img/friend-btn.png">
+            <img style="width:18%; margin-left:3vw" src="assets/img/chat-btn.png">
+        
+        </div>
+        
+        <div class="profile">
+            <img src="assets/img/profile-pic.png">
+        </div>
+        
+        
+        <div class="title-name">
+            <h3>Jeanette Russell</h3>
+        </div>
+        
+        <div class="profile-location">
+            <ion-row align-items-center>
+                <ion-col col-8>
+                    <div><i class="fa fa-map-marker location-icon" aria-hidden="true"></i></div>
+                </ion-col>
+                <ion-col col-4>
+                    <div><p class="location">Singapore</p></div>
+                </ion-col>
+            </ion-row>
+        
+        </div>
+    
+    </div>
+    
+    
+    <div class="counter">
+        <ion-row>
+            <ion-col>
+                <p class="numbers">472</p>
+                <p class="numbers-title">Followers</p>
+            </ion-col>
+            
+            <ion-col>
+                <p class="numbers">119</p>
+                <p class="numbers-title">Posts</p>
+            </ion-col>
+            
+            <ion-col>
+                <p class="numbers">860</p>
+                <p class="numbers-title">Following</p>
+            </ion-col>
+        </ion-row>
+    
+    </div>
+    
+    <ion-slides autoplay="2500" loop="true" slidesPerView="4" class="slides">
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide1.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide2.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide3.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide4.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide5.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide6.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide7.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide8.png">
+        </ion-slide>
+        <ion-slide>
+            <img class="slide-image" src="assets/img/profile-slide9.png">
+        </ion-slide>
+    </ion-slides>
+    
+    <div style="position:relative" padding>
+        <img style="width:15%" src="assets/img/live-profile.png">
+        
+        <div style="position:absolute; margin-top:-7vh; margin-left:16vw;">
+            <h6>Sarah Fernandez</h6>
+            <p style="font-family:open-sans; font-size:12px; color:#0091ea; margin-top:-1.5vh">24 Oct. At 11:38</p>
+        </div>
+        
+        <div style="position:absolute">
+            <button style="color:#0091ea; margin-top:-1.5vh; margin-left:34vh; margin-top:-14vh" ion-button round
+                    outline medium>Follow
+            </button>
+        </div>
+        
+        <p style="font-family:open-sans; font-size:18px">Cheap flights from Budapest to Kuala Lumpur for $359
+            round-trip!</p>
+        
+        <img src="assets/img/tokyo.png">
+    
+    </div>
+    
+    <div padding style="position:relative; margin-top:-4vh">
+        <ion-row>
+            <ion-col col-4>
+                <div><img style="width:25%" src="assets/img/share.png"></div>
+            </ion-col>
+            <ion-col col-4>
+                <div><img style="width:25%; margin-left:14vw" src="assets/img/like.png"></div>
+            </ion-col>
+            <ion-col col-4>
+                <div><img style="width:25%; margin-left:10vw" src="assets/img/message.png"></div>
+            </ion-col>
+        </ion-row>
+        
+        <div style="position:absolute">
+            <ion-row>
+                <ion-col>
+                    <div><p class="share-numbers" style="margin-left: 10vw">4</p></div>
+                </ion-col>
+                <ion-col>
+                    <div><p class="share-numbers" style="margin-left: 40vw">17</p></div>
+                </ion-col>
+                <ion-col>
+                    <div><p class="share-numbers" style="margin-left: 20vw">12</p></div>
+                </ion-col>
+            </ion-row>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div style="position:relative" padding>
+        <img style="width:15%" src="assets/img/offline-profile.png">
+        <div style="position:absolute; margin-top:-7vh; margin-left:16vw;">
+            <h6>Katharine Ward</h6>
+            <p style="font-family:open-sans; font-size:12px; color:#0091ea; margin-top:-1.5vh">24 Oct. At 09:52</p>
+        </div>
+        <div style="position:absolute">
+            <button style="color:#0091ea; margin-top:-1.5vh; margin-left:34vh; margin-top:-14vh" ion-button round
+                    outline medium>Follow
+            </button>
+        </div>
+        <p style="font-family:open-sans; font-size:18px">The sun is a daily reminder that we too can rise from the
+            darkness, that we too can shine our own light</p>
+    </div>
+    
+    <div padding style="position:relative; margin-top:-4vh">
+        <ion-row>
+            <ion-col col-4>
+                <div><img style="width:25%" src="assets/img/share.png"></div>
+            </ion-col>
+            <ion-col col-4>
+                <div><img style="width:25%; margin-left:14vw" src="assets/img/like.png"></div>
+            </ion-col>
+            <ion-col col-4>
+                <div><img style="width:25%; margin-left:10vw" src="assets/img/message.png"></div>
+            </ion-col>
+        </ion-row>
+        
+        <div style="position:absolute">
+            <ion-row>
+                <ion-col>
+                    <div><p class="share-numbers" style="margin-left: 10vw">8</p></div>
+                </ion-col>
+                <ion-col>
+                    <div><p class="share-numbers" style="margin-left: 40vw">31</p></div>
+                </ion-col>
+                <ion-col>
+                    <div><p class="share-numbers" style="margin-left: 20vw">23</p></div>
+                </ion-col>
+            </ion-row>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div style="position:relative" padding>
+        <img style="width:15%" src="assets/img/live-profile2.png">
+        <div style="position:absolute; margin-top:-7vh; margin-left:16vw;">
+            <h6>James Rodriguez</h6>
+            <p style="font-family:open-sans; font-size:12px; color:#0091ea; margin-top:-1.5vh">02 Dec. At 03:26</p>
+        </div>
+        <div style="position:absolute">
+            <button style="color:#fff; margin-top:-1.5vh; margin-left:34vh; margin-top:-14vh" ion-button round medium>
+                Friend
+            </button>
+        </div>
+        <p style="font-family:open-sans; font-size:18px">Evolution of human mind in its natural communion with sacred
+            plants</p>
+        
+        <img src="assets/img/video.jpg" style="width: 100%; height: 100%" (click)="nextpage()">
+    
+    </div>
+
+
+</ion-content>

@@ -1,4 +1,4 @@
-// http://ionicframework.com/docs/theming/
+// http://ionicframework.com/docs/v2/theming/
 
 
 // App Global Sass
@@ -15,20 +15,21 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-@font-face {
+
+@font-face{
     font-family: open-sans;
-    src: url('../assets/fonts/open-sans.woff2') format('woff2');
+    src: url('../assets/fonts/Open-sans.woff2') format('woff2');
 }
 
 *{
-    font-family: open-sans, serif;
+    font-family: Open-sans;
 }
 
-@font-face {
-    font-family: baloo-bhai;
-    src: url('../assets/fonts/baloo-bhai.woff2') format('woff2');
+@font-face{
+    font-family: BalooBhai;
+    src: url('../assets/fonts/BalooBhai.woff2') format('woff2');
 }
 
 *{
-    font-family: Baloo-bhai, serif;
+    font-family: BalooBhai;
 }

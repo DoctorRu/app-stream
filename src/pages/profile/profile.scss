@@ -1,0 +1,84 @@
+page-profile {
+
+.header-parent {
+    position: relative;
+    text-align: center;
+}
+
+
+.header-social {
+        position: relative;
+        bottom: 0px;
+        text-align: center;
+        margin-top: -5.5vh;
+    }
+
+.profile {
+        width: 25%;
+        margin: 0 auto;
+        margin-top: -34vh;
+    }
+
+.title-name {
+        color: #fff;
+        margin-top: -3vh;
+    }
+
+.location-icon {
+        color: #fff;
+        font-size: 18px;
+        float: right;
+    }
+
+.counter {
+        text-align: center;
+        margin-top: 6.5vh;
+        margin-left: 1vw;
+    }
+
+.numbers {
+        font-family: open-sans;
+        color: #323e46;
+        font-size: 20px;
+    }
+
+.numbers-title {
+        font-family: open-sans;
+        color: #b7c4cb;
+        font-size: 16px;
+        margin-top: -3vh;
+    }
+
+    .location {
+        font-size: 16px;
+        font-family: open-sans;
+        color: #fff;
+        float: left;
+    }
+
+    .profile-location{
+        margin-top: -4.8vh;
+        margin-right: 36vw;
+    }
+
+    .slides {
+        max-height: 20%;
+        background-color: #f7f8fa;
+    }
+
+    .slide-image {
+        width: 75%;
+    }
+
+    .share-numbers {
+        font-family: open-sans;
+        color: #0091ea;
+        font-size: 16px;
+        margin-top: -6vh; 
+    }
+}
+
+.toast-message {
+    color: white;
+    background-color: #0091ea;
+}

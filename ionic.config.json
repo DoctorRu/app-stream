@@ -1,6 +1,6 @@
 {
-  "name": "AppStream",
+  "name": "AppStream-Demo",
   "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {},
+  "type": "ionic-angular"
 }
